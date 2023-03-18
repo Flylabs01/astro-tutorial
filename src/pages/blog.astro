@@ -1,10 +1,7 @@
 ---
 import "../styles/global.css";
 
-const pageTitle = "Astro Tutorial - Index";
-
-const finished = false;
-const intro = "Astro - All in one framework!";
+const pageTitle = "Blog Page";
 ---
 
 <html lang="en">
@@ -25,7 +22,12 @@ const intro = "Astro - All in one framework!";
     </nav>
 
     <h1>{pageTitle}</h1>
-    <p>Finished : {finished ? "Yes!" : "No!"}</p>
-    {intro && <p>{intro}</p>}
+    <p>Welcome on the blog!</p>
+
+    <ul>
+      <li><a href="/posts/post-1/">Post 1</a></li>
+      <li><a href="/posts/post-2/">Post 2</a></li>
+      <li><a href="/posts/post-3/">Post 3</a></li>
+    </ul>
   </body>
 </html>
