@@ -1,14 +1,13 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Second Blog Post
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:
-  url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"
+  url: "https://images.unsplash.com/photo-1591338970759-e0c79237267a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   alt: "Thumbnails of websites from the Astro Showcase site."
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
-
-# Post 2
 
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
